@@ -235,3 +235,50 @@ nav li a:hover {
 nav li .active a {
   color: var(--branding-color);
 }
+footer .social-links a {
+  margin: 0 30px;
+  color: var(--secondary-color);
+  background: var(--branding-color);
+  padding: 15px 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: blue;
+  background-color: aliceblue;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer-email {
+  text-align: center;
+  margin-bottom: 40px;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+.container-footer {
+  margin-top: 40px;
+}
+.btn-branding {
+  background: var(--secondary-color) !important;
+  color: var(--branding-color) !important;
+  padding: 15px;
+  display: inline-block;
+}
+footer .contact-box {
+  background: var(--branding-color);
+  padding: 30px 120px;
+  border-radius: 5px;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+footer .contact-box p {
+  margin: 0;
+}
