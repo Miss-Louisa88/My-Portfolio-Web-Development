@@ -10,11 +10,9 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
-
 body {
-  background-color: var(--branding-color);
+  background: var(--branding-color);
 }
-
 .about-me-description {
   margin: 30px;
 }
@@ -300,4 +298,8 @@ footer .contact-box p {
 }
 .buttons {
   text-align: center;
+}
+.about-container {
+  background: var(--branding-color);
+  padding: 60px 80px;
 }
