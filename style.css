@@ -10,9 +10,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
-body {
-  background: var(--branding-color);
-}
+
 .about-me-description {
   margin: 30px;
 }
@@ -301,9 +299,24 @@ footer .contact-box p {
 }
 .about-container {
   background: var(--branding-color);
-  padding: 60px 80px;
+  padding: 40px 80px;
 }
 .col-lg-7 {
   padding: 20px;
   padding-right: 20px;
+}
+.content-container {
+  min-width: 1200;
+  padding: 60px 30px;
+  width: 100%;
+}
+.project-content {
+  padding-left: 100px;
+  background: whitesmoke;
+}
+.img-fluid rounded mb-3 {
+  height: 500px;
+
+  max-width: 100%;
+  height: auto;
 }
