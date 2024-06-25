@@ -303,3 +303,7 @@ footer .contact-box p {
   background: var(--branding-color);
   padding: 60px 80px;
 }
+.col-lg-7 {
+  padding: 20px;
+  padding-right: 20px;
+}
