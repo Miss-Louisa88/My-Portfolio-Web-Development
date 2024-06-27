@@ -16,24 +16,88 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/297be9aab6.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+    <nav class="d-flex justify-contect-between">
+        <img src="images/logo.png" alt="logo" class="logo d-none d-md-block">
+        <img src="images/logo.small.png" alt="smalllogo" class=" small-logo img-fluid d-block d-md-none">
+        <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li> <a href="about.html" title="About Louise Adera">About</a></li>
+            <li> <a href="work.html" title="Louise Adera developer projects">Work</a></li>
+            <li> <a href="contact.html" title="Contact Louise Adera">Contact</a></li>
+        </ul>
+    </nav>
+
     <div class="about-section container">
         <div class="content">
             <h1>Lets Get in Touch</h1>
         </div>
-        <h2>Email</h2>
-        <p class="mb-5"><a href="mailto:louiseadera@gmail.com" target="_blank">louiseadera@gmail.com</a></p>
-        <h2>Twitter</h2>
-        <p class="mb-5"><a href="https://x.com/LouisaCodes" target="_blank">@LouisaCodes</a></p>
-        <h2>Instagram</h2>
-        <p class="mb-5"><a href="https://www.instagram.com/louisaguda/" target="_blank"> @LouisaGuda</a></p>
+        <div class="row">
+            <div class="col-md-8">
+                <form action="https://formspree.io/f/mwkalajy" method="POST" class="border p-3 rounded mb-3">
+                    <div class="mb-3">
+                        <label class="form-label"> Your email: </label>
+                        <input type="email" name="_replyto" class="form-control" required="" autofocus="">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label"> Your message: </label>
+                        <textarea name="message" class="form-control" required=""></textarea>
+                    </div>
+
+                    <!-- other form fields in the future -->
+
+                    <button type="submit" class="btn btn-branding">Send</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <h2>Email</h2>
+                <p class="mb-5"><a href="mailto:louiseadera@gmail.com" target="_blank">louiseadera@gmail.com</a></p>
+                <h2>Twitter</h2>
+                <p class="mb-5"><a href="https://x.com/LouisaCodes" target="_blank">@LouisaCodes</a></p>
+                <h2>Instagram</h2>
+                <p class="mb-5"><a href="https://www.instagram.com/louisaguda/" target="_blank"> @LouisaGuda</a></p>
+            </div>
+        </div>
 
 
     </div>
 
+    <div class="container-footer">
+        <footer>
+            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>Work Inquiry</h3>
+                    <p class="text-muted d-block">Let's work together</p>
+                </div>
+                <div>
+                    <a class="btn btn-branding mt-3 " href="contact.html" title="Contact Louise Adera">Contact
+                        Me</a>
+                </div>
+            </div>
+            <div>
 
+                <div class="footer-email">
+                    <a href="mailto:louiseadera@gmail.com" target="_blank" class="email-link">louiseadera@gmail.com</a>
+                </div>
+
+                <div class="social-links d-flex justify-content-center">
+                    <a href="https://github.com/Miss-Louisa88" target="_blank"><i class="fa-brands fa-github"
+                            title="Louise Adera Github profile"></i></a>
+                    <a href="https://www.instagram.com/louisaguda/" target="_blank"><i
+                            class="fa-brands fa-square-instagram"
+                            title="Louise Adera developer instagram profile"></i></a>
+                    <a href="https://x.com/LouisaCodes" target="_blank"><i class="fa-brands fa-twitter"
+                            title="Louise Adera developer twitter profile"></i></a>
+                </div>
+                <p class="text-muted text-center mt-5">This website was coded by Louise Adera and is <a
+                        href="https://github.com/Miss-Louisa88/My-Portfolio-Web-Development"
+                        target="_blank">open-sourced</a></p>
+        </footer>
+    </div>
 </body>
 
 </html>
