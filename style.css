@@ -12,8 +12,12 @@
 @media (max-width: 600px) {
   .project-content {
     text-align: center;
-    background-color: aqua;
-    padding-right: 40px;
+    background-color: var(--branding-color);
+    padding-right: 60px;
+  }
+  .work-heading {
+    font-size: 48px;
+    text-align: center;
   }
 }
 :root {
