@@ -9,9 +9,11 @@
     max-width: 540px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .project-content {
-    text: center;
+    text-align: center;
+    background-color: aqua;
+    padding-right: 40px;
   }
 }
 :root {
