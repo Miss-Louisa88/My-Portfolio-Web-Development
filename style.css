@@ -20,6 +20,10 @@
     line-height: normal;
     margin-top: 20px;
   }
+  .btn-primary btn-branding-outline {
+    font-size: 12px;
+    padding: 10px;
+  }
 }
 :root {
   --branding-color: antiquewhite;
