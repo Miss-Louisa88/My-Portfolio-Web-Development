@@ -4,6 +4,16 @@
     padding: 0;
   }
 }
+@media (max-width: 400px) {
+  .portfolio {
+    max-width: 540px;
+  }
+}
+@media (max-width: 700px) {
+  .project-content {
+    text: center;
+  }
+}
 :root {
   --branding-color: antiquewhite;
   --secondary-color: rgb(9, 105, 9);
@@ -83,7 +93,6 @@ img {
   font-family: var(--default-font-family);
 }
 
-//homepage
 :root {
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -105,7 +114,6 @@ img {
 .portfolio {
   text-align: center;
   padding: 80px 20px;
-  max-width: 120%;
   background-color: var(--branding-color);
 }
 .portfolio p {
@@ -305,14 +313,15 @@ footer .contact-box p {
   padding: 20px;
   padding-right: 20px;
 }
+
 .content-container {
   min-width: 1200;
   padding: 60px 30px;
   width: 100%;
+  background: whitesmoke;
 }
 .project-content {
   padding-left: 100px;
-  background: whitesmoke;
 }
 .img-fluid rounded mb-3 {
   height: 500px;
