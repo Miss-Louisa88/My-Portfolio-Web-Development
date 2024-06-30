@@ -11,13 +11,14 @@
 }
 @media (max-width: 600px) {
   .project-content {
-    text-align: center;
     background-color: var(--branding-color);
     padding-right: 60px;
   }
   .work-heading {
-    font-size: 48px;
+    font-size: 30px;
     text-align: center;
+    line-height: normal;
+    margin-top: 20px;
   }
 }
 :root {
